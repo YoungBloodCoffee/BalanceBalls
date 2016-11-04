@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BalanceBalls/ViewController.swift"
+            timestampString = "499988400.105786"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BalanceBalls.ViewController.animator.getter : Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UIDynamicAnimator&gt;"
+                  moduleName = "BalanceBalls"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/PlayerOne/Desktop/BalanceBalls/BalanceBalls/ViewController.swift"
+                  timestampString = "499975300.010996"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "35">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BalanceBalls.ViewController.animator.setter : Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UIDynamicAnimator&gt;"
+                  moduleName = "BalanceBalls"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/PlayerOne/Desktop/BalanceBalls/BalanceBalls/ViewController.swift"
+                  timestampString = "499975300.012473"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "65">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BalanceBalls.ViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; BalanceBalls.ViewController"
+                  moduleName = "BalanceBalls"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/PlayerOne/Desktop/BalanceBalls/BalanceBalls/ViewController.swift"
+                  timestampString = "499975300.013948"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "69">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BalanceBalls.ViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;BalanceBalls.ViewController&gt;"
+                  moduleName = "BalanceBalls"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/PlayerOne/Desktop/BalanceBalls/BalanceBalls/ViewController.swift"
+                  timestampString = "499975300.015763"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "28">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BalanceBalls/ViewController.swift"
+            timestampString = "499989105.70432"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BalanceBalls.ViewController.gravity.getter : Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UIGravityBehavior&gt;"
+                  moduleName = "BalanceBalls"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/PlayerOne/Desktop/BalanceBalls/BalanceBalls/ViewController.swift"
+                  timestampString = "499975300.545189"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "35">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BalanceBalls.ViewController.gravity.setter : Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UIGravityBehavior&gt;"
+                  moduleName = "BalanceBalls"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/PlayerOne/Desktop/BalanceBalls/BalanceBalls/ViewController.swift"
+                  timestampString = "499975300.547087"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "65">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BalanceBalls.ViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; BalanceBalls.ViewController"
+                  moduleName = "BalanceBalls"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/PlayerOne/Desktop/BalanceBalls/BalanceBalls/ViewController.swift"
+                  timestampString = "499975300.548545"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "92">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BalanceBalls.ViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;BalanceBalls.ViewController&gt;"
+                  moduleName = "BalanceBalls"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/PlayerOne/Desktop/BalanceBalls/BalanceBalls/ViewController.swift"
+                  timestampString = "499975300.549925"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "51">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BalanceBalls/ViewController.swift"
+            timestampString = "499990126.20517"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BalanceBalls/ViewController.swift"
+            timestampString = "499988400.105786"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BalanceBalls.ViewController.animator.getter : Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UIDynamicAnimator&gt;"
+                  moduleName = "BalanceBalls"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/PlayerOne/Desktop/BalanceBalls/BalanceBalls/ViewController.swift"
+                  timestampString = "499975305.324273"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "35">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BalanceBalls.ViewController.animator.setter : Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UIDynamicAnimator&gt;"
+                  moduleName = "BalanceBalls"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/PlayerOne/Desktop/BalanceBalls/BalanceBalls/ViewController.swift"
+                  timestampString = "499975305.326335"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "65">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BalanceBalls.ViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; BalanceBalls.ViewController"
+                  moduleName = "BalanceBalls"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/PlayerOne/Desktop/BalanceBalls/BalanceBalls/ViewController.swift"
+                  timestampString = "499975305.328803"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "69">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BalanceBalls.ViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;BalanceBalls.ViewController&gt;"
+                  moduleName = "BalanceBalls"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/PlayerOne/Desktop/BalanceBalls/BalanceBalls/ViewController.swift"
+                  timestampString = "499975305.333025"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "28">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
