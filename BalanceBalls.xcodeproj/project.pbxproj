@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EFCD334D1DCD00D500A22B94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCD334C1DCD00D500A22B94 /* AppDelegate.swift */; };
+		EFCD334F1DCD00D500A22B94 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCD334E1DCD00D500A22B94 /* ViewController.swift */; };
+		EFCD33521DCD00D500A22B94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFCD33501DCD00D500A22B94 /* Main.storyboard */; };
+		EFCD33541DCD00D500A22B94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFCD33531DCD00D500A22B94 /* Assets.xcassets */; };
+		EFCD33571DCD00D500A22B94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFCD33551DCD00D500A22B94 /* LaunchScreen.storyboard */; };
+		EFCD33621DCD00D500A22B94 /* BalanceBallsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCD33611DCD00D500A22B94 /* BalanceBallsTests.swift */; };
+		EFCD336D1DCD00D500A22B94 /* BalanceBallsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCD336C1DCD00D500A22B94 /* BalanceBallsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFCD335E1DCD00D500A22B94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFCD33411DCD00D500A22B94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFCD33481DCD00D500A22B94;
+			remoteInfo = BalanceBalls;
+		};
+		EFCD33691DCD00D500A22B94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFCD33411DCD00D500A22B94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFCD33481DCD00D500A22B94;
+			remoteInfo = BalanceBalls;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EFCD33491DCD00D500A22B94 /* BalanceBalls.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BalanceBalls.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFCD334C1DCD00D500A22B94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EFCD334E1DCD00D500A22B94 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EFCD33511DCD00D500A22B94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EFCD33531DCD00D500A22B94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFCD33561DCD00D500A22B94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EFCD33581DCD00D500A22B94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFCD335D1DCD00D500A22B94 /* BalanceBallsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BalanceBallsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFCD33611DCD00D500A22B94 /* BalanceBallsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceBallsTests.swift; sourceTree = "<group>"; };
+		EFCD33631DCD00D500A22B94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFCD33681DCD00D500A22B94 /* BalanceBallsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BalanceBallsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFCD336C1DCD00D500A22B94 /* BalanceBallsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceBallsUITests.swift; sourceTree = "<group>"; };
+		EFCD336E1DCD00D500A22B94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFCD33461DCD00D500A22B94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFCD335A1DCD00D500A22B94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFCD33651DCD00D500A22B94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFCD33401DCD00D500A22B94 = {
+			isa = PBXGroup;
+			children = (
+				EFCD334B1DCD00D500A22B94 /* BalanceBalls */,
+				EFCD33601DCD00D500A22B94 /* BalanceBallsTests */,
+				EFCD336B1DCD00D500A22B94 /* BalanceBallsUITests */,
+				EFCD334A1DCD00D500A22B94 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFCD334A1DCD00D500A22B94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD33491DCD00D500A22B94 /* BalanceBalls.app */,
+				EFCD335D1DCD00D500A22B94 /* BalanceBallsTests.xctest */,
+				EFCD33681DCD00D500A22B94 /* BalanceBallsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFCD334B1DCD00D500A22B94 /* BalanceBalls */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD334C1DCD00D500A22B94 /* AppDelegate.swift */,
+				EFCD334E1DCD00D500A22B94 /* ViewController.swift */,
+				EFCD33501DCD00D500A22B94 /* Main.storyboard */,
+				EFCD33531DCD00D500A22B94 /* Assets.xcassets */,
+				EFCD33551DCD00D500A22B94 /* LaunchScreen.storyboard */,
+				EFCD33581DCD00D500A22B94 /* Info.plist */,
+			);
+			path = BalanceBalls;
+			sourceTree = "<group>";
+		};
+		EFCD33601DCD00D500A22B94 /* BalanceBallsTests */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD33611DCD00D500A22B94 /* BalanceBallsTests.swift */,
+				EFCD33631DCD00D500A22B94 /* Info.plist */,
+			);
+			path = BalanceBallsTests;
+			sourceTree = "<group>";
+		};
+		EFCD336B1DCD00D500A22B94 /* BalanceBallsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD336C1DCD00D500A22B94 /* BalanceBallsUITests.swift */,
+				EFCD336E1DCD00D500A22B94 /* Info.plist */,
+			);
+			path = BalanceBallsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFCD33481DCD00D500A22B94 /* BalanceBalls */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFCD33711DCD00D500A22B94 /* Build configuration list for PBXNativeTarget "BalanceBalls" */;
+			buildPhases = (
+				EFCD33451DCD00D500A22B94 /* Sources */,
+				EFCD33461DCD00D500A22B94 /* Frameworks */,
+				EFCD33471DCD00D500A22B94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BalanceBalls;
+			productName = BalanceBalls;
+			productReference = EFCD33491DCD00D500A22B94 /* BalanceBalls.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFCD335C1DCD00D500A22B94 /* BalanceBallsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFCD33741DCD00D500A22B94 /* Build configuration list for PBXNativeTarget "BalanceBallsTests" */;
+			buildPhases = (
+				EFCD33591DCD00D500A22B94 /* Sources */,
+				EFCD335A1DCD00D500A22B94 /* Frameworks */,
+				EFCD335B1DCD00D500A22B94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFCD335F1DCD00D500A22B94 /* PBXTargetDependency */,
+			);
+			name = BalanceBallsTests;
+			productName = BalanceBallsTests;
+			productReference = EFCD335D1DCD00D500A22B94 /* BalanceBallsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EFCD33671DCD00D500A22B94 /* BalanceBallsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFCD33771DCD00D500A22B94 /* Build configuration list for PBXNativeTarget "BalanceBallsUITests" */;
+			buildPhases = (
+				EFCD33641DCD00D500A22B94 /* Sources */,
+				EFCD33651DCD00D500A22B94 /* Frameworks */,
+				EFCD33661DCD00D500A22B94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFCD336A1DCD00D500A22B94 /* PBXTargetDependency */,
+			);
+			name = BalanceBallsUITests;
+			productName = BalanceBallsUITests;
+			productReference = EFCD33681DCD00D500A22B94 /* BalanceBallsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFCD33411DCD00D500A22B94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Nate Kosin";
+				TargetAttributes = {
+					EFCD33481DCD00D500A22B94 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					EFCD335C1DCD00D500A22B94 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EFCD33481DCD00D500A22B94;
+					};
+					EFCD33671DCD00D500A22B94 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EFCD33481DCD00D500A22B94;
+					};
+				};
+			};
+			buildConfigurationList = EFCD33441DCD00D500A22B94 /* Build configuration list for PBXProject "BalanceBalls" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFCD33401DCD00D500A22B94;
+			productRefGroup = EFCD334A1DCD00D500A22B94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFCD33481DCD00D500A22B94 /* BalanceBalls */,
+				EFCD335C1DCD00D500A22B94 /* BalanceBallsTests */,
+				EFCD33671DCD00D500A22B94 /* BalanceBallsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFCD33471DCD00D500A22B94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFCD33571DCD00D500A22B94 /* LaunchScreen.storyboard in Resources */,
+				EFCD33541DCD00D500A22B94 /* Assets.xcassets in Resources */,
+				EFCD33521DCD00D500A22B94 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFCD335B1DCD00D500A22B94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFCD33661DCD00D500A22B94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFCD33451DCD00D500A22B94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFCD334F1DCD00D500A22B94 /* ViewController.swift in Sources */,
+				EFCD334D1DCD00D500A22B94 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFCD33591DCD00D500A22B94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFCD33621DCD00D500A22B94 /* BalanceBallsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFCD33641DCD00D500A22B94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFCD336D1DCD00D500A22B94 /* BalanceBallsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFCD335F1DCD00D500A22B94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFCD33481DCD00D500A22B94 /* BalanceBalls */;
+			targetProxy = EFCD335E1DCD00D500A22B94 /* PBXContainerItemProxy */;
+		};
+		EFCD336A1DCD00D500A22B94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFCD33481DCD00D500A22B94 /* BalanceBalls */;
+			targetProxy = EFCD33691DCD00D500A22B94 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EFCD33501DCD00D500A22B94 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFCD33511DCD00D500A22B94 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EFCD33551DCD00D500A22B94 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFCD33561DCD00D500A22B94 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFCD336F1DCD00D500A22B94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EFCD33701DCD00D500A22B94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFCD33721DCD00D500A22B94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BalanceBalls/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KosinNathan.BalanceBalls;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EFCD33731DCD00D500A22B94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BalanceBalls/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KosinNathan.BalanceBalls;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EFCD33751DCD00D500A22B94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BalanceBallsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KosinNathan.BalanceBallsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BalanceBalls.app/BalanceBalls";
+			};
+			name = Debug;
+		};
+		EFCD33761DCD00D500A22B94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BalanceBallsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KosinNathan.BalanceBallsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BalanceBalls.app/BalanceBalls";
+			};
+			name = Release;
+		};
+		EFCD33781DCD00D500A22B94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = BalanceBallsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KosinNathan.BalanceBallsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BalanceBalls;
+			};
+			name = Debug;
+		};
+		EFCD33791DCD00D500A22B94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = BalanceBallsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KosinNathan.BalanceBallsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BalanceBalls;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFCD33441DCD00D500A22B94 /* Build configuration list for PBXProject "BalanceBalls" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFCD336F1DCD00D500A22B94 /* Debug */,
+				EFCD33701DCD00D500A22B94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFCD33711DCD00D500A22B94 /* Build configuration list for PBXNativeTarget "BalanceBalls" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFCD33721DCD00D500A22B94 /* Debug */,
+				EFCD33731DCD00D500A22B94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EFCD33741DCD00D500A22B94 /* Build configuration list for PBXNativeTarget "BalanceBallsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFCD33751DCD00D500A22B94 /* Debug */,
+				EFCD33761DCD00D500A22B94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EFCD33771DCD00D500A22B94 /* Build configuration list for PBXNativeTarget "BalanceBallsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFCD33781DCD00D500A22B94 /* Debug */,
+				EFCD33791DCD00D500A22B94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFCD33411DCD00D500A22B94 /* Project object */;
+}
