@@ -17,12 +17,13 @@ class ViewController: UIViewController {
     var masterBall: UIView!
     var ballArray = [UIView]()
     
+    // SLEEP BEFORE NEW BALL ADDED
     func Sleep(){
         DispatchQueue.main.asyncAfter(deadline: .now() + .seconds(5), execute: {
             self.ballArray.append(self.createBall(size: 75, corner: 37.5))
         })
     }
-    
+    // CREATE BALL FUNC
     func createBall(size: Int = 75, corner: Float = 37.5) -> UIView {
         let square = UIView(frame: CGRect(x: 175, y: 0, width: size, height: size))
         square.layer.cornerRadius = CGFloat(corner)
